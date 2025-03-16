@@ -13,7 +13,7 @@ app.use(
 );
 app.use(express.json());
 
-const DEFAULT_PORT = process.env.PORT || 8888;
+const DEFAULT_PORT = 8888;
 
 function unbiasedBit() {
     return Math.random() < 0.5 ? 0 : 1;
