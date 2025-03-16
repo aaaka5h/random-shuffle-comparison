@@ -23,6 +23,7 @@ function uniformInt(n) {
     return Math.floor(Math.random() * n);
 }
 
+// https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 function fisherYatesShuffle(arr) {
     // TODO: Wait for piazza post, Idk if this is the right one
     for (let i = arr.length - 1; i > 0; i--) {
